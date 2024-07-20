@@ -13,7 +13,7 @@ git clone https://github.com/esperar/musinsa.git
 <br>
 
 1. 서버를 실행한 후 /h2-console로 접속후 `user: root, password: 1234`로 접속합니다.
-2. 과제에 작성되어 있는 data들을 insert 합니다. [insert data query](https://github.com/esperar/musinsa/blob/master/src/main/resources/insert.txt)
+2. 과제에 작성되어 있는 data들을 insert 합니다. [insert data query](https://github.com/esperar/musinsa/blob/master/src/main/resources/insert.sql)
 3. data insert 이후 api 명세서에 따라 http 요청을 통해 테스트를 진행합니다. (POSTMAN 권장) [api docs](https://github.com/esperar/musinsa/blob/master/docs/apidocs.md)
 
 > h2 memory 저장소를 사용하기 때문에 data.sql를 사용하지 않았습니다. 직접 insert를 해야합니다.
