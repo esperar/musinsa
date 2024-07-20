@@ -36,6 +36,8 @@ git clone https://github.com/esperar/musinsa.git
 - **presentation(controller)**: client와 API 통신을 위한 Controller가 작성되어 있습니다.
 - **domain(domain class**): application 영역에서 조작되는 entity 모델의 도메인 클래스입니다.
  
-`controller - service - port - repository`로 연결되는 구조를 가집니다. 각 서비스는 Command, Query가 분리돼있습니다.
+`controller - service - port - repository`로 연결되는 구조를 가집니다. 
+
+각 서비스는 Command, Query(Write, Read) 기능이 분리되어있습니다.
 
 > Mocking Test는 Create, Update Clothing 부분의 테스트가 작성되어 있습니다.
